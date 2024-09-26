@@ -9,7 +9,7 @@ public class Database {
 
     private Database() {
        try {
-           String DB_URL = "jdbc:h2:./sql/testdb";
+           String DB_URL = "jdbc:h2:tcp://localhost/~/test";
            String DB_USER = "sa";
            String DB_PASSWORD = "";
             this.connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);

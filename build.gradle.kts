@@ -10,10 +10,14 @@ repositories {
 }
 
 dependencies {
+    testImplementation("com.h2database:h2:2.3.232")
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     implementation("org.postgresql:postgresql:42.7.4")
-    testImplementation("com.h2database:h2:2.3.232")
+    implementation ("com.h2database:h2:2.1.214")
+
+
+
 
 }
 

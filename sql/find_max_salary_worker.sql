@@ -1,4 +1,4 @@
 SELECT name, salary
 FROM workers
-order by salary DESC
+ORDER BY salary DESC
     LIMIT 1;

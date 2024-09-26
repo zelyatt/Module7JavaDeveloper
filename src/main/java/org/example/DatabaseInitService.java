@@ -10,7 +10,7 @@ import java.sql.Statement;
 
 public class DatabaseInitService {
     public static void main(String[] args) {
-        // Отримання з'єднання через клас Database
+
         try (Connection conn = Database.getInstance().getConnection();
              Statement stmt = conn.createStatement()) {
 

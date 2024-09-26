@@ -1,8 +1,7 @@
 WITH project_durations AS (
     SELECT id,
            client_id,
-           DATE_PART('year', AGE(end_date, start_date)) * 12 +
-           DATE_PART('month', AGE(end_date, start_date)) AS month_count
+           DATEDIFF('MONTH', start_date, end_date) AS month_count
     FROM projects
 ),
 
