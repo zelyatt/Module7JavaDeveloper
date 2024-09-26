@@ -16,11 +16,11 @@ public class Demo {
 //        for (MaxSalary worker: maxSalaries){
 //            System.out.println(worker);
 //        }
-        DatabaseQueryService youngestOldest = new DatabaseQueryService();
-        List<YoungestAndOldestWorker> youngestAndOldestWorkers = youngestOldest.findYoungestAndOldestWorker();
-        for (YoungestAndOldestWorker worker : youngestAndOldestWorkers) {
-            System.out.println(worker);
-        }
+//        DatabaseQueryService youngestOldest = new DatabaseQueryService();
+//        List<YoungestAndOldestWorker> youngestAndOldestWorkers = youngestOldest.findYoungestAndOldestWorker();
+//        for (YoungestAndOldestWorker worker : youngestAndOldestWorkers) {
+//            System.out.println(worker);
+//        }
 
     }
 }
